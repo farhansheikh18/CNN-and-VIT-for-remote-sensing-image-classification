@@ -199,4 +199,4 @@ print("Shape of cnn_features_val:", cnn_features_val.shape)
 vit_model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 vit_model.fit(cnn_features_train, class_train, epochs=num_epochs, batch_size=batch_size, validation_data=(cnn_features_val, class_test))
 
-
+# adeel khan
